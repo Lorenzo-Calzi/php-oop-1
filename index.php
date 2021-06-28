@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/film.php';
+
 $films = [
     $film_1 = new Movie('Interstellar', 'English', 'Science fiction', 'Astronauti alla scoperta di un buco nero'),
     $film_2 = new Movie('Avengers - End Game', 'English', 'Action/Sci-fi', "L'ultimo scontro per la salvezza dell'universo"),
@@ -9,7 +10,6 @@ $films = [
     $film_5 = new Movie('Baywatch', 'English', 'Comedy', 'I guardaspiaggia devono salvare la costa dalla droga'),
     $film_6 = new Movie('Shark Tale', 'English', 'Animation', "Oscar è un piccolo pesce in cerca di avventura"),
     $film_7 = new Movie('Avatar', 'English', 'Science fiction', 'Un nuovo mondo con creature mai viste'),
-
 ];
 
 $film_1->setVote(8);
@@ -19,8 +19,6 @@ $film_4->setVote(7.1);
 $film_5->setVote(6.1);
 $film_6->setVote(5.5);
 $film_7->setVote(9.1);
-
-
 
 ?>
 
